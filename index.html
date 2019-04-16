@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Todo</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+
+  </head>
+
+  <body>
+    <!-- jumbotron for the insertion of the task -->
+    <div class="jumbotron">
+      <h1 id="heading" class="mb-2">What do you need to accomplish today?</h1>
+      <br>
+      <div class="input-group mb-3">
+        <input id="new-task" type="text" class="form-control" placeholder="Take out the trash" aria-label="taskname" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+        <button id="add" class="btn btn-outline-secondary" type="button">Add!</button>
+        </div>
+      </div>
+    </div>
+    <!-- task div -->
+    <div id="tasks" class=""></div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+
+  </body>
+
+</html>

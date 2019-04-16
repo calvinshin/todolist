@@ -1,0 +1,29 @@
+#tasks {
+    /* width: 80%;
+    height: 60vh;
+    background-color: yellow; */
+    /* text-align: center; */
+}
+
+.shelldiv {
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.close {
+    /* display: inline-block; */
+    margin-right: 5px;
+    margin-top: 0px;
+    position: relative;
+    top: -5px;
+    /* top: 50%; */
+    /* transform: translate(50%, 0%); */
+    /* right: 0%; */
+}
+
+.textdiv {
+    display: inline-block;
+    /* font-size: x-large; */
+    width: calc(100% - 30px);
+}
